@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
 
+## Hackathon quickstart
+
+Use this checklist to get the project ready for a fast-moving hackathon session:
+
+- **Prerequisites:** Node.js 16+ and npm installed locally.
+- **Install dependencies:** `npm ci` to get a clean, reproducible dependency tree.
+- **Run the dev server:** `npm start` then open `http://localhost:4200/`.
+- **Verify tests:** `npm test -- --watch=false` to run the Karma suite once in headless mode.
+- **Code generation:** `ng generate component|service|pipe ...` to quickly scaffold features.
+- **Build for demos:** `npm run build` to produce optimized assets in `dist/`.
+- **Commit hygiene:** keep changes small and include meaningful commit messages to speed up reviews.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
